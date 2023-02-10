@@ -3,11 +3,8 @@ const emailRegex = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\
 const TABLE_USERS = 'Users';
 const TABLE_TOKENS = 'Tokens';
 const saltRounds = 10;
-// const EXPIRATION_AT = '3600s';
-// const EXPIRATION_RT = '30d';
-const EXPIRATION_AT = '15s';
-const EXPIRATION_RT = '30s';
-
+const EXPIRATION_AT = '3600s';
+const EXPIRATION_RT = '30d';
 const KEY_AT = 'simple_key_at';
 const KEY_RT = 'simple_key_rt';
 
